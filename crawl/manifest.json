@@ -1,0 +1,47 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "generator": {
+    "deterministic": true,
+    "models": "none"
+  },
+  "build": {
+    "commit": "0b6ce67c5a3189b94b2df9142d0cf061bf838b38",
+    "branch": "main"
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-14T02:16:39.522Z",
+  "command": "suite-builder build https://harsh.civicease.systems/",
+  "templates": "crawl/harsh.civicease.systems.templates.json",
+  "crawl": "crawl/harsh.civicease.systems.crawl.json",
+  "crawlFileSaved": "2026-11-14T02:16:39.188Z",
+  "pages": {
+    "ship": "all",
+    "crawl": "68de3fd64fad4d9b",
+    "signedIn": false,
+    "roles": []
+  },
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ],
+  "classes": [
+    "audit"
+  ]
+}

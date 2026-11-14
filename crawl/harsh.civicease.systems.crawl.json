@@ -1,0 +1,1291 @@
+{
+  "tool": "suite-builder",
+  "reportVersion": 6,
+  "startUrl": "https://harsh.civicease.systems/",
+  "origin": "https://harsh.civicease.systems",
+  "options": {
+    "maxPages": 300,
+    "delayMs": 1000,
+    "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+    "maxConsecutiveErrors": 3,
+    "include": [],
+    "exclude": []
+  },
+  "adsBlocked": true,
+  "robots": {
+    "url": "https://harsh.civicease.systems/robots.txt",
+    "status": 200,
+    "source": "parsed",
+    "crawlDelaySeconds": null
+  },
+  "notFound": {
+    "url": "https://harsh.civicease.systems/suite-builder-no-such-page-de834671",
+    "status": 404
+  },
+  "site": {
+    "certificate": {
+      "validTo": "2027-01-11",
+      "daysLeft": 58,
+      "names": [
+        "*.civicease.systems",
+        "civicease.systems"
+      ],
+      "matches": true,
+      "trusted": true
+    },
+    "http": {
+      "url": "http://harsh.civicease.systems/",
+      "status": 308,
+      "to": "https://harsh.civicease.systems/"
+    },
+    "sitemap": {
+      "url": "https://harsh.civicease.systems/sitemap.xml",
+      "status": 404
+    },
+    "securityTxt": {
+      "url": "https://harsh.civicease.systems/.well-known/security.txt",
+      "status": 404
+    },
+    "images": {
+      "asked": 1,
+      "seen": 1,
+      "notOnPage": 11
+    },
+    "external": {
+      "seen": 7,
+      "answers": [
+        {
+          "url": "https://civicease.systems/",
+          "status": 200,
+          "to": "https://www.civicease.systems/"
+        },
+        {
+          "url": "https://uwriter.io/",
+          "status": 200,
+          "to": "https://www.uwriter.io/"
+        },
+        {
+          "url": "https://formally.civicease.systems/",
+          "status": 200
+        },
+        {
+          "url": "https://clockspace.civicease.systems/",
+          "status": 200
+        },
+        {
+          "url": "https://github.com/HARSHRAO729/ClockSpace",
+          "status": 200
+        },
+        {
+          "url": "https://linkedin.com/in/harsh-rao-dev",
+          "status": 200
+        },
+        {
+          "url": "https://github.com/HARSHRAO729",
+          "status": 200
+        }
+      ]
+    }
+  },
+  "addresses": [
+    {
+      "address": "104.21.12.126",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "172.67.194.127",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "2606:4700:3035::6815:c7e",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2606:4700:3035::ac43:c27f",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    }
+  ],
+  "stopReason": "complete",
+  "discovery": {
+    "newAt": [
+      1,
+      2
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://harsh.civicease.systems/",
+      "finalUrl": "https://harsh.civicease.systems/",
+      "status": 200,
+      "redirects": [],
+      "title": "Harsh Rao — Zenkai",
+      "contentType": "text/html; charset=utf-8",
+      "depth": 0,
+      "fingerprint": {
+        "hash": "f4ee1c790344c348",
+        "paths": [
+          "footer.foot",
+          "footer.foot/b",
+          "footer.foot/span",
+          "main",
+          "main/section.hero",
+          "main/section.hero/a.go",
+          "main/section.hero/a.go/i",
+          "main/section.hero/a.go/span",
+          "main/section.hero/a.go/span/svg",
+          "main/section.hero/div.stickers",
+          "main/section.hero/div.stickers/span.cut.st.st-bat",
+          "main/section.hero/div.stickers/span.cut.st.st-bat/b",
+          "main/section.hero/div.stickers/span.cut.st.st-bat/i",
+          "main/section.hero/div.stickers/span.cut.st.st-bird",
+          "main/section.hero/div.stickers/span.cut.st.st-bird/svg",
+          "main/section.hero/div.stickers/span.cut.st.st-eternal",
+          "main/section.hero/div.stickers/span.cut.st.st-hat",
+          "main/section.hero/div.stickers/span.cut.st.st-hat/svg",
+          "main/section.hero/div.stickers/span.cut.st.st-pop",
+          "main/section.hero/div.stickers/span.cut.st.st-pop/svg",
+          "main/section.hero/div.stickers/span.cut.st.st-specs",
+          "main/section.hero/div.stickers/span.cut.st.st-specs/svg",
+          "main/section.hero/div.stickers/span.st.st-br",
+          "main/section.hero/div.stickers/span.st.st-bug",
+          "main/section.hero/div.stickers/span.st.st-bug/b",
+          "main/section.hero/div.stickers/span.st.st-bug/em",
+          "main/section.hero/div.stickers/span.st.st-bug/small",
+          "main/section.hero/div.stickers/span.st.st-cur",
+          "main/section.hero/div.stickers/span.st.st-cur/svg",
+          "main/section.hero/div.stickers/span.st.st-tsu",
+          "main/section.hero/h1",
+          "main/section.hero/h1/span",
+          "main/section.hero/header.top",
+          "main/section.hero/header.top/a.mark",
+          "main/section.hero/p.lead",
+          "main/section.hero/p.lead/br",
+          "main/section.hero/p.role",
+          "main/section.section",
+          "main/section.section/a.in.more.reveal",
+          "main/section.section/a.in.more.reveal/span",
+          "main/section.section/div",
+          "main/section.section/div.about",
+          "main/section.section/div.about/div",
+          "main/section.section/div.about/div/div",
+          "main/section.section/div.about/div/div/dl",
+          "main/section.section/div.about/div/div/dl/div",
+          "main/section.section/div.about/div/div/dl/div/dd",
+          "main/section.section/div.about/div/div/dl/div/dd/br",
+          "main/section.section/div.about/div/div/dl/div/dt",
+          "main/section.section/div.about/div/div/h3",
+          "main/section.section/div.about/div/div/p",
+          "main/section.section/div.about/figure.in.polaroid.portrait",
+          "main/section.section/div.about/figure.in.polaroid.portrait/figcaption",
+          "main/section.section/div.about/figure.in.polaroid.portrait/figcaption/b",
+          "main/section.section/div.about/figure.in.polaroid.portrait/span",
+          "main/section.section/div.about/figure.in.polaroid.portrait/span/img",
+          "main/section.section/div.in.reveal",
+          "main/section.section/div.in.reveal/h2",
+          "main/section.section/div.in.reveal/p",
+          "main/section.section/div/div",
+          "main/section.section/div/div.projects",
+          "main/section.section/div/div.projects/article.proj",
+          "main/section.section/div/div.projects/article.proj/div",
+          "main/section.section/div/div.projects/article.proj/div/div",
+          "main/section.section/div/div.projects/article.proj/div/div/button",
+          "main/section.section/div/div.projects/article.proj/div/div/h3",
+          "main/section.section/div/div.projects/article.proj/div/div/p",
+          "main/section.section/div/div.projects/article.proj/div/div/p.label",
+          "main/section.section/div/div.projects/article.proj/div/div/p.label/a",
+          "main/section.section/div/div.projects/article.proj/div/div/p/span",
+          "main/section.section/div/div.projects/article.proj/div/div/ul",
+          "main/section.section/div/div.projects/article.proj/div/div/ul/li",
+          "main/section.section/div/div/details.job",
+          "main/section.section/div/div/details.job/div",
+          "main/section.section/div/div/details.job/div/p.label",
+          "main/section.section/div/div/details.job/div/p.label/a",
+          "main/section.section/div/div/details.job/div/ul",
+          "main/section.section/div/div/details.job/div/ul/li",
+          "main/section.section/div/div/details.job/summary",
+          "main/section.section/div/div/details.job/summary/em",
+          "main/section.section/div/div/details.job/summary/h3",
+          "main/section.section/div/div/details.job/summary/i",
+          "main/section.section/div/div/details.job/summary/span",
+          "main/section.section/div/p.in.label.reveal",
+          "main/section.section/dl",
+          "main/section.section/dl/div",
+          "main/section.section/dl/div/dd",
+          "main/section.section/dl/div/dt",
+          "main/section.section/ol.scatter",
+          "main/section.section/ol.scatter/li.in.pin.pin--next",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next/strong",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/figcaption",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/figcaption/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/span.is-empty",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/span.is-empty/em",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/i.tr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.at",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.at/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.pl",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/small/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/small/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/i.st",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/span.hk",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.bar",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.dot",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.ft",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.hd",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.hd/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.hd/small/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.ft",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.ft/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.tag",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.tag/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span/i",
+          "main/section.section/ul.contact",
+          "main/section.section/ul.contact/li",
+          "main/section.section/ul.contact/li/a",
+          "main/section.section/ul.contact/li/span",
+          "nav.nav",
+          "nav.nav/a",
+          "nav.nav/span",
+          "nav.nav/span/i",
+          "nav.nav/svg",
+          "svg",
+          "svg.swirl"
+        ]
+      },
+      "settled": {
+        "ms": 1500,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "Harsh Rao",
+        "About",
+        "Education",
+        "B.Tech in AI/ML",
+        "Skills",
+        "Languages",
+        "Frameworks / Web",
+        "AI/ML & R&D",
+        "Data",
+        "Cloud & Tools",
+        "Work",
+        "CivicEase",
+        "Underwriter AI",
+        "GIFT IFIH Young Builders’ Program",
+        "FormAlly",
+        "ClockSpace",
+        "Journey",
+        "Now",
+        "Studying",
+        "Building",
+        "Next rooms",
+        "Contact"
+      ],
+      "structure": {
+        "h1": [
+          "Harsh Rao"
+        ],
+        "main": true
+      },
+      "anchors": [
+        {
+          "href": "#about",
+          "text": "About",
+          "id": "about",
+          "exists": true,
+          "heading": "About",
+          "region": "header"
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "id": "work",
+          "exists": true,
+          "heading": "Work",
+          "region": "header"
+        },
+        {
+          "href": "#journey",
+          "text": "Journey",
+          "id": "journey",
+          "exists": true,
+          "heading": "Journey",
+          "region": "header"
+        },
+        {
+          "href": "#contact",
+          "text": "Contact",
+          "id": "contact",
+          "exists": true,
+          "heading": "Contact",
+          "region": "header"
+        },
+        {
+          "href": "#about",
+          "text": "Then I stay ↓",
+          "id": "about",
+          "exists": true,
+          "heading": "About"
+        }
+      ],
+      "controls": [
+        {
+          "kind": "expander",
+          "words": [
+            "01 CIVICEASE Founder & CTO AUG 2025 — PRESENT"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'01CivicEaseFounder & CTOAug 2025 —')]",
+          "stability": "OK"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "02 UNDERWRITER AI AI/ML Engineer, R&D SEP 2026 — PRESENT"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'02Underwriter AIAI/ML Engineer, R&DSep')]",
+          "stability": "OK"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "03 GIFT IFIH YOUNG BUILDERS’ PROGRAM Entrepreneur in Resi..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'03GIFT IFIH Young Builders’')]",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN OVER ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[h3[normalize-space()='FormAlly']]//button[normalize-space()='Turn over ↻']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN BACK ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[p/a[normalize-space()='formally.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN OVER ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[h3[normalize-space()='ClockSpace']]//button[normalize-space()='Turn over ↻']",
+          "stability": "OK"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN BACK ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[p/a[normalize-space()='clockspace.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+          "stability": "OK"
+        }
+      ],
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Harsh Rao",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "About",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Education",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "B.Tech in AI/ML",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Skills",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Languages",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Frameworks / Web",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "AI/ML & R&D",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Data",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Cloud & Tools",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Work",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "CivicEase",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Underwriter AI",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "GIFT IFIH Young Builders’ Program",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "FormAlly",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "ClockSpace",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Journey",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Now",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Studying",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Building",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Next rooms",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Contact",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "button",
+          "name": "TURN OVER ↻",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "button",
+          "name": "TURN BACK ↻",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "About",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Work",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Journey",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Zenkai",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Then I stay ↓",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "civicease.systems ↗",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "formally.civicease.systems ↗",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "clockspace.civicease.systems ↗",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "GitHub ↗",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Show all 28 rooms →",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "harsh@civicease.systems",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "linkedin.com/in/harsh-rao-dev",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "github.com/HARSHRAO729",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/index.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Harsh Rao. AI/ML student in Ahmedabad and founder of CivicEase. I keep walking into rooms I'm not qualified for. Then I stay."
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "About",
+          "url": "\"#about\"",
+          "where": {
+            "in": "page",
+            "tag": "h2"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Work",
+          "url": "\"#work\"",
+          "where": {
+            "in": "page",
+            "tag": "h2"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Journey",
+          "url": "\"#journey\"",
+          "where": {
+            "in": "page",
+            "tag": "h2"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "url": "\"#contact\"",
+          "where": {
+            "in": "page",
+            "tag": "h2"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Zenkai",
+          "url": "/"
+        },
+        {
+          "role": "link",
+          "name": "Then I stay",
+          "url": "\"#about\"",
+          "where": {
+            "in": "page",
+            "tag": "span"
+          }
+        },
+        {
+          "role": "link",
+          "name": "civicease.systems ↗",
+          "url": "https://civicease.systems"
+        },
+        {
+          "role": "button",
+          "name": "Turn over ↻"
+        },
+        {
+          "role": "link",
+          "name": "formally.civicease.systems ↗",
+          "url": "https://formally.civicease.systems"
+        },
+        {
+          "role": "button",
+          "name": "Turn back ↻"
+        },
+        {
+          "role": "link",
+          "name": "clockspace.civicease.systems ↗",
+          "url": "https://clockspace.civicease.systems"
+        },
+        {
+          "role": "link",
+          "name": "GitHub ↗",
+          "url": "https://github.com/HARSHRAO729/ClockSpace"
+        },
+        {
+          "role": "link",
+          "name": "Show all 28 rooms →",
+          "url": "/journey.html"
+        },
+        {
+          "role": "link",
+          "name": "harsh@civicease.systems",
+          "url": "mailto:harsh@civicease.systems"
+        },
+        {
+          "role": "link",
+          "name": "linkedin.com/in/harsh-rao-dev",
+          "url": "https://linkedin.com/in/harsh-rao-dev"
+        },
+        {
+          "role": "link",
+          "name": "github.com/HARSHRAO729",
+          "url": "https://github.com/HARSHRAO729"
+        }
+      ],
+      "load": {
+        "loadMs": 2900,
+        "headers": {
+          "strict-transport-security": "max-age=63072000",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://harsh.civicease.systems/journey.html",
+      "finalUrl": "https://harsh.civicease.systems/journey.html",
+      "status": 200,
+      "redirects": [],
+      "title": "Journey — Harsh Rao",
+      "contentType": "text/html; charset=utf-8",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "b2de6f26fde4dbb5",
+        "paths": [
+          "footer.foot",
+          "footer.foot/b",
+          "footer.foot/span",
+          "header.top",
+          "header.top/a.mark",
+          "main",
+          "main/section.section",
+          "main/section.section/a.in.more.reveal",
+          "main/section.section/div.in.reveal",
+          "main/section.section/div.in.reveal/h1",
+          "main/section.section/div.in.reveal/p",
+          "main/section.section/ol.scatter",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/p",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/p/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.card/span.face.front/svg.ic",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-apex.badge/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span.ft",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span.hd",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span.hd/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span.hd/span/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span.hd/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.card/span.face.front/span/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-awscd.badge/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span.gfd",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span.gfd/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.card/span.face.front/span/span/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-bwai.badge/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card/span.face.front/span.bar",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card/span.face.front/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.card/span.face.front/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.b-odoo.badge/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--badge/span.mini/span/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--next",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/p.next/strong",
+          "main/section.section/ol.scatter/li.in.pin.pin--next/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--note",
+          "main/section.section/ol.scatter/li.in.pin.pin--note/p",
+          "main/section.section/ol.scatter/li.in.pin.pin--note/p.note",
+          "main/section.section/ol.scatter/li.in.pin.pin--note/p.note.note--dark",
+          "main/section.section/ol.scatter/li.in.pin.pin--note/p/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--note/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/figcaption",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/figcaption/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/span.is-empty",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/figure.polaroid/span.is-empty/em",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/span.bar",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/span.gfd",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/span.gfd/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/span/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aiday.badge/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/span.bar",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/span.hd",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/span.hd/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/span/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-aws.badge/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/i.tr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.at",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.at/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.pl",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/small/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.card/span.face.front/span/small/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-devfest.badge/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card/span.face.front/i.sq",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card/span.face.front/span/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-fbc.badge/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/i.st",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/span.hk",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-gift.badge.sleeve/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/span.bar",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/span/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/span/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/span/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.card/span.face.front/span/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-kcd.badge/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.bar",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.dot",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.ft",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.hd",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.hd/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.hd/small/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.qr",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span.qr/svg",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.clips.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-mcp.badge.sleeve/span.clips.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.ft",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.ft/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.tag",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span.tag/br",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.card/span.face.front/span/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-ropar.badge.sleeve/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.card",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.card/span.face.front",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.card/span.face.front/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.card/span.face.front/span",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.card/span.face.front/span/small",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.clips",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.b-swift.badge/span.clips/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.two",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span.two/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--photo/span.mini.mini--small/span/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--stub",
+          "main/section.section/ol.scatter/li.in.pin.pin--stub/p.stub",
+          "main/section.section/ol.scatter/li.in.pin.pin--stub/p.stub/b",
+          "main/section.section/ol.scatter/li.in.pin.pin--stub/p.stub/i",
+          "main/section.section/ol.scatter/li.in.pin.pin--stub/p.stub/span",
+          "nav.nav",
+          "nav.nav/a",
+          "nav.nav/a.on",
+          "nav.nav/span",
+          "nav.nav/span/i",
+          "nav.nav/svg"
+        ]
+      },
+      "settled": {
+        "ms": 1100,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "Journey"
+      ],
+      "structure": {
+        "h1": [
+          "Journey"
+        ],
+        "main": true
+      },
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Journey",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "About",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Work",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Journey",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Zenkai",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "← Back home",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/journey.html.html",
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Harsh Rao. AI/ML student in Ahmedabad and founder of CivicEase. Every room I have walked into since February 2026."
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "About",
+          "url": "/#about"
+        },
+        {
+          "role": "link",
+          "name": "Work",
+          "url": "/#work"
+        },
+        {
+          "role": "link",
+          "name": "Journey",
+          "url": "/journey.html"
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "url": "/#contact"
+        },
+        {
+          "role": "link",
+          "name": "Zenkai",
+          "url": "/"
+        },
+        {
+          "role": "link",
+          "name": "← Back home",
+          "url": "/"
+        }
+      ],
+      "load": {
+        "headers": {
+          "strict-transport-security": "max-age=63072000",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/",
+      "href": "#about",
+      "text": "About",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/",
+      "href": "#work",
+      "text": "Work",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/",
+      "href": "#journey",
+      "text": "Journey",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/",
+      "href": "#contact",
+      "text": "Contact",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/",
+      "href": "/",
+      "text": "Zenkai",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/",
+      "href": "#about",
+      "text": "Then I stay ↓",
+      "external": false
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://civicease.systems/",
+      "href": "https://civicease.systems",
+      "text": "civicease.systems ↗",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://uwriter.io/",
+      "href": "https://uwriter.io",
+      "text": "uwriter.io ↗",
+      "external": true,
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://formally.civicease.systems/",
+      "href": "https://formally.civicease.systems",
+      "text": "formally.civicease.systems ↗",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://clockspace.civicease.systems/",
+      "href": "https://clockspace.civicease.systems",
+      "text": "clockspace.civicease.systems ↗",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://github.com/HARSHRAO729/ClockSpace",
+      "href": "https://github.com/HARSHRAO729/ClockSpace",
+      "text": "GitHub ↗",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://harsh.civicease.systems/journey.html",
+      "href": "/journey.html",
+      "text": "Show all 28 rooms →",
+      "external": false
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://linkedin.com/in/harsh-rao-dev",
+      "href": "https://linkedin.com/in/harsh-rao-dev",
+      "text": "linkedin.com/in/harsh-rao-dev",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/",
+      "to": "https://github.com/HARSHRAO729",
+      "href": "https://github.com/HARSHRAO729",
+      "text": "github.com/HARSHRAO729",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://harsh.civicease.systems/journey.html",
+      "to": "https://harsh.civicease.systems/",
+      "href": "/#about",
+      "text": "About",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/journey.html",
+      "to": "https://harsh.civicease.systems/",
+      "href": "/#work",
+      "text": "Work",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/journey.html",
+      "to": "https://harsh.civicease.systems/journey.html",
+      "href": "/journey.html",
+      "text": "Journey",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/journey.html",
+      "to": "https://harsh.civicease.systems/",
+      "href": "/#contact",
+      "text": "Contact",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/journey.html",
+      "to": "https://harsh.civicease.systems/",
+      "href": "/",
+      "text": "Zenkai",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://harsh.civicease.systems/journey.html",
+      "to": "https://harsh.civicease.systems/",
+      "href": "/",
+      "text": "← Back home",
+      "external": false
+    }
+  ],
+  "notCrawled": [],
+  "build": {
+    "commit": "0b6ce67c5a3189b94b2df9142d0cf061bf838b38",
+    "branch": "main"
+  }
+}

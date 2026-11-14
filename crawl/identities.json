@@ -1,0 +1,32 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "68de3fd64fad4d9ba409b43245faaeddd5bd6198947d833e27c63982f65c3555",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "68de3fd64fad4d9ba409b43245faaeddd5bd6198947d833e27c63982f65c3555"
+      }
+    },
+    {
+      "id": "type:/journey.html",
+      "kind": "page-type",
+      "introducedAt": "68de3fd64fad4d9ba409b43245faaeddd5bd6198947d833e27c63982f65c3555",
+      "cls": "JourneyPage",
+      "patterns": [
+        "/journey.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "68de3fd64fad4d9ba409b43245faaeddd5bd6198947d833e27c63982f65c3555"
+      }
+    }
+  ]
+}

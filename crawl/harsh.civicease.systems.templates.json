@@ -1,0 +1,240 @@
+{
+  "tool": "suite-builder",
+  "kind": "templates",
+  "version": 2,
+  "startUrl": "https://harsh.civicease.systems/",
+  "origin": "https://harsh.civicease.systems",
+  "pagesRead": 2,
+  "menu": [],
+  "templates": [
+    {
+      "id": "home",
+      "name": "HomePage",
+      "urlPatterns": [
+        "/"
+      ],
+      "pages": [
+        "https://harsh.civicease.systems/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Harsh Rao — Zenkai",
+      "sharedHeadings": [
+        "Harsh Rao",
+        "About",
+        "Education",
+        "B.Tech in AI/ML",
+        "Skills",
+        "Languages",
+        "Frameworks / Web",
+        "AI/ML & R&D",
+        "Data",
+        "Cloud & Tools",
+        "Work",
+        "CivicEase",
+        "Underwriter AI",
+        "GIFT IFIH Young Builders’ Program",
+        "FormAlly",
+        "ClockSpace",
+        "Journey",
+        "Now",
+        "Studying",
+        "Building",
+        "Next rooms",
+        "Contact"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "journey",
+          "count": 1,
+          "example": {
+            "from": "https://harsh.civicease.systems/",
+            "to": "https://harsh.civicease.systems/journey.html",
+            "href": "/journey.html",
+            "text": "Show all 28 rooms →"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "expander",
+          "words": [
+            "01 CIVICEASE Founder & CTO AUG 2025 — PRESENT"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'01CivicEaseFounder & CTOAug 2025 —')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "02 UNDERWRITER AI AI/ML Engineer, R&D SEP 2026 — PRESENT"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'02Underwriter AIAI/ML Engineer, R&DSep')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "03 GIFT IFIH YOUNG BUILDERS’ PROGRAM Entrepreneur in Resi..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'03GIFT IFIH Young Builders’')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN OVER ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[h3[normalize-space()='FormAlly']]//button[normalize-space()='Turn over ↻']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN BACK ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[p/a[normalize-space()='formally.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN OVER ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[h3[normalize-space()='ClockSpace']]//button[normalize-space()='Turn over ↻']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TURN BACK ↻"
+          ],
+          "region": "main",
+          "xpath": "//div[@id='project-list']//div[p/a[normalize-space()='clockspace.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://harsh.civicease.systems/"
+        }
+      ],
+      "why": {
+        "rule": "start-page",
+        "says": "the start page: always a page type of its own, since every test starts there"
+      }
+    },
+    {
+      "id": "journey",
+      "name": "JourneyPage",
+      "urlPatterns": [
+        "/journey.html"
+      ],
+      "pages": [
+        "https://harsh.civicease.systems/journey.html"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Journey — Harsh Rao",
+      "sharedHeadings": [
+        "Journey"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "home",
+          "count": 1,
+          "example": {
+            "from": "https://harsh.civicease.systems/journey.html",
+            "to": "https://harsh.civicease.systems/",
+            "href": "/#about",
+            "text": "About"
+          }
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /, shares 32% of its layout and 0% of its headings)"
+      }
+    }
+  ],
+  "skipped": [],
+  "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+  "findings": [
+    {
+      "code": "SITE-24",
+      "severity": "minor",
+      "listed": [
+        "missing header",
+        "missing headers"
+      ],
+      "title": "3 security headers no page sends",
+      "where": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "says": "no page of the site sends Content-Security-Policy (without it, nothing limits which scripts a page may run)"
+        },
+        {
+          "url": "https://harsh.civicease.systems/",
+          "says": "no page of the site sends X-Frame-Options or frame-ancestors (without it, another site can frame the page to trick a click)"
+        },
+        {
+          "url": "https://harsh.civicease.systems/",
+          "says": "no page of the site sends X-Content-Type-Options: nosniff (without it, a browser may guess a file's type from its content)"
+        }
+      ],
+      "why": "Each header closes off one way the site could be misused (a downgrade to http, a script slipped in, the site framed in another to trick a click). A missing one is a weaker defence, not a sign the site has been attacked; security reviews ask for them, and each costs a line of server configuration.",
+      "fix": "Add the missing headers in the web server or the CDN (one setting each), starting with Content-Security-Policy."
+    },
+    {
+      "code": "SITE-28",
+      "severity": "minor",
+      "listed": [
+        "address",
+        "addresses"
+      ],
+      "title": "The site has no sitemap search engines can read",
+      "where": [
+        {
+          "url": "https://harsh.civicease.systems/sitemap.xml",
+          "says": "answered 404"
+        }
+      ],
+      "why": "A sitemap tells search engines every page to index, and how fresh each is; without one they find pages only by following links, and one listing wrong addresses spends their visits on errors.",
+      "fix": "Publish /sitemap.xml listing each page's final address (most site builders and CMSs have a setting or plugin for it), and name it in robots.txt (Sitemap: ...)."
+    },
+    {
+      "code": "SITE-29",
+      "severity": "minor",
+      "listed": [
+        "address",
+        "addresses"
+      ],
+      "title": "The site publishes no security.txt, the file that tells security researchers whom to contact",
+      "where": [
+        {
+          "url": "https://harsh.civicease.systems/.well-known/security.txt",
+          "says": "answered 404"
+        }
+      ],
+      "why": "Researchers who find a security problem look for /.well-known/security.txt to know whom to tell (RFC 9116); without it they may not report it, or report it publicly.",
+      "fix": "Publish /.well-known/security.txt with a Contact line (an email address or a form) and an Expires line."
+    }
+  ]
+}

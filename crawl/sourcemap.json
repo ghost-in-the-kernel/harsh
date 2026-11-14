@@ -1,0 +1,1408 @@
+{
+  "version": 2,
+  "crawl": {
+    "file": "crawl/harsh.civicease.systems.crawl.json",
+    "sha256": "5313612545b049b3248bc1d34bb6c287013155eccc0fb610acabc0daa2343537"
+  },
+  "entities": {
+    "type:/": {
+      "kind": "type",
+      "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]",
+      "facts": [
+        "page HomePage",
+        "page HomePage opens ()",
+        "page HomePage url-shapes /",
+        "page HomePage doors click, read, verify",
+        "page HomePage settles 500",
+        "page HomePage title is \"Harsh Rao — Zenkai\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 38,
+          "fact": "page HomePage",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 59,
+          "fact": "page HomePage opens ()",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 66,
+          "fact": "page HomePage url-shapes /",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 38,
+          "fact": "page HomePage doors click, read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 96,
+          "fact": "page HomePage settles 500",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 45,
+          "fact": "page HomePage title is \"Harsh Rao — Zenkai\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "control:/:N_01_CIVICEASE_FOUNDER_CTO_BUTTON": {
+      "kind": "control",
+      "why": "seen on /: expander \"01 CIVICEASE Founder & CTO AUG 2025 — PRESENT\"; the crawl trusts its locator (expander)",
+      "facts": [
+        "page HomePage element N_01_CIVICEASE_FOUNDER_CTO_BUTTON xpath //summary[starts-with(normalize-space(),'01CivicEaseFounder & CTOAug 2025 —')]",
+        "page HomePage click n01CiviceaseFounderCto on N_01_CIVICEASE_FOUNDER_CTO_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 52,
+          "fact": "page HomePage element N_01_CIVICEASE_FOUNDER_CTO_BUTTON xpath //summary[starts-with(normalize-space(),'01CivicEaseFounder & CTOAug 2025 —')]",
+          "why": "seen on /: expander \"01 CIVICEASE Founder & CTO AUG 2025 — PRESENT\"; the crawl trusts its locator (expander)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 33,
+          "fact": "page HomePage click n01CiviceaseFounderCto on N_01_CIVICEASE_FOUNDER_CTO_BUTTON",
+          "why": "seen on /: expander \"01 CIVICEASE Founder & CTO AUG 2025 — PRESENT\""
+        }
+      ]
+    },
+    "control:/:N_02_UNDERWRITER_AI_AI_BUTTON": {
+      "kind": "control",
+      "why": "seen on /: expander \"02 UNDERWRITER AI AI/ML Engineer, R&D SEP 2026 — PRESENT\"; the crawl trusts its locator (expander)",
+      "facts": [
+        "page HomePage element N_02_UNDERWRITER_AI_AI_BUTTON xpath //summary[starts-with(normalize-space(),'02Underwriter AIAI/ML Engineer, R&DSep')]",
+        "page HomePage click n02UnderwriterAiAi on N_02_UNDERWRITER_AI_AI_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 56,
+          "fact": "page HomePage element N_02_UNDERWRITER_AI_AI_BUTTON xpath //summary[starts-with(normalize-space(),'02Underwriter AIAI/ML Engineer, R&DSep')]",
+          "why": "seen on /: expander \"02 UNDERWRITER AI AI/ML Engineer, R&D SEP 2026 — PRESENT\"; the crawl trusts its locator (expander)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 42,
+          "fact": "page HomePage click n02UnderwriterAiAi on N_02_UNDERWRITER_AI_AI_BUTTON",
+          "why": "seen on /: expander \"02 UNDERWRITER AI AI/ML Engineer, R&D SEP 2026 — PRESENT\""
+        }
+      ]
+    },
+    "control:/:N_03_GIFT_IFIH_YOUNG_BUTTON": {
+      "kind": "control",
+      "why": "seen on /: expander \"03 GIFT IFIH YOUNG BUILDERS’ PROGRAM Entrepreneur in Resi...\"; the crawl trusts its locator (expander)",
+      "facts": [
+        "page HomePage element N_03_GIFT_IFIH_YOUNG_BUTTON xpath //summary[starts-with(normalize-space(),'03GIFT IFIH Young Builders’')]",
+        "page HomePage click n03GiftIfihYoung on N_03_GIFT_IFIH_YOUNG_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 60,
+          "fact": "page HomePage element N_03_GIFT_IFIH_YOUNG_BUTTON xpath //summary[starts-with(normalize-space(),'03GIFT IFIH Young Builders’')]",
+          "why": "seen on /: expander \"03 GIFT IFIH YOUNG BUILDERS’ PROGRAM Entrepreneur in Resi...\"; the crawl trusts its locator (expander)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 51,
+          "fact": "page HomePage click n03GiftIfihYoung on N_03_GIFT_IFIH_YOUNG_BUTTON",
+          "why": "seen on /: expander \"03 GIFT IFIH YOUNG BUILDERS’ PROGRAM Entrepreneur in Resi...\""
+        }
+      ]
+    },
+    "control:/:TURN_OVER_BUTTON": {
+      "kind": "control",
+      "why": "seen on /: button \"TURN OVER ↻\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page HomePage element TURN_OVER_BUTTON xpath //div[@id='project-list']//div[h3[normalize-space()='FormAlly']]//button[normalize-space()='Turn over ↻']",
+        "page HomePage click turnOver on TURN_OVER_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 63,
+          "fact": "page HomePage element TURN_OVER_BUTTON xpath //div[@id='project-list']//div[h3[normalize-space()='FormAlly']]//button[normalize-space()='Turn over ↻']",
+          "why": "seen on /: button \"TURN OVER ↻\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 60,
+          "fact": "page HomePage click turnOver on TURN_OVER_BUTTON",
+          "why": "seen on /: button \"TURN OVER ↻\""
+        }
+      ]
+    },
+    "control:/:TURN_BACK_BUTTON": {
+      "kind": "control",
+      "why": "seen on /: button \"TURN BACK ↻\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page HomePage element TURN_BACK_BUTTON xpath //div[@id='project-list']//div[p/a[normalize-space()='formally.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+        "page HomePage click turnBack on TURN_BACK_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 68,
+          "fact": "page HomePage element TURN_BACK_BUTTON xpath //div[@id='project-list']//div[p/a[normalize-space()='formally.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+          "why": "seen on /: button \"TURN BACK ↻\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 69,
+          "fact": "page HomePage click turnBack on TURN_BACK_BUTTON",
+          "why": "seen on /: button \"TURN BACK ↻\""
+        }
+      ]
+    },
+    "control:/:TURN_OVER_BUTTON_2": {
+      "kind": "control",
+      "why": "seen on /: button \"TURN OVER ↻\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page HomePage element TURN_OVER_BUTTON_2 xpath //div[@id='project-list']//div[h3[normalize-space()='ClockSpace']]//button[normalize-space()='Turn over ↻']",
+        "page HomePage click turnOver2 on TURN_OVER_BUTTON_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 73,
+          "fact": "page HomePage element TURN_OVER_BUTTON_2 xpath //div[@id='project-list']//div[h3[normalize-space()='ClockSpace']]//button[normalize-space()='Turn over ↻']",
+          "why": "seen on /: button \"TURN OVER ↻\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 78,
+          "fact": "page HomePage click turnOver2 on TURN_OVER_BUTTON_2",
+          "why": "seen on /: button \"TURN OVER ↻\""
+        }
+      ]
+    },
+    "control:/:TURN_BACK_BUTTON_2": {
+      "kind": "control",
+      "why": "seen on /: button \"TURN BACK ↻\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page HomePage element TURN_BACK_BUTTON_2 xpath //div[@id='project-list']//div[p/a[normalize-space()='clockspace.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+        "page HomePage click turnBack2 on TURN_BACK_BUTTON_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 78,
+          "fact": "page HomePage element TURN_BACK_BUTTON_2 xpath //div[@id='project-list']//div[p/a[normalize-space()='clockspace.civicease.systems ↗']]//button[normalize-space()='Turn back ↻']",
+          "why": "seen on /: button \"TURN BACK ↻\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 87,
+          "fact": "page HomePage click turnBack2 on TURN_BACK_BUTTON_2",
+          "why": "seen on /: button \"TURN BACK ↻\""
+        }
+      ]
+    },
+    "structure:/:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page HomePage structure MAIN_HEADING xpath //h1",
+        "page HomePage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 40,
+          "fact": "page HomePage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 49,
+          "fact": "page HomePage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page HomePage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 42,
+          "fact": "page HomePage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/:Harsh Rao": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page HomePage loaded-when \"Harsh Rao\"",
+        "page HomePage check \"Harsh Rao\" spelled \"Harsh Rao\" by role heading \"Harsh Rao\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomePage.java",
+          "line": 49,
+          "fact": "page HomePage loaded-when \"Harsh Rao\"",
+          "why": "every page of HomePage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 22,
+          "fact": "page HomePage check \"Harsh Rao\" spelled \"Harsh Rao\" by role heading \"Harsh Rao\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:About": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"About\" spelled \"About\" by role heading \"About\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 25,
+          "fact": "page HomePage check \"About\" spelled \"About\" by role heading \"About\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:Education": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"Education\" spelled \"Education\" by role heading \"Education\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 28,
+          "fact": "page HomePage check \"Education\" spelled \"Education\" by role heading \"Education\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:B.Tech in AI/ML": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"B.Tech in AI/ML\" spelled \"B.Tech in AI/ML\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 31,
+          "fact": "page HomePage check \"B.Tech in AI/ML\" spelled \"B.Tech in AI/ML\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:Skills": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"Skills\" spelled \"Skills\" by role heading \"Skills\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 33,
+          "fact": "page HomePage check \"Skills\" spelled \"Skills\" by role heading \"Skills\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:Languages": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"Languages\" spelled \"Languages\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 36,
+          "fact": "page HomePage check \"Languages\" spelled \"Languages\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "link:/:JOURNEY_LINK": {
+      "kind": "link",
+      "why": "seen on /: \"Show all 28 rooms →\" (/journey.html); found by its role and name, exact: the crawl found exactly one on every page that must show it",
+      "facts": [
+        "page HomePage link JOURNEY_LINK role link \"Show all 28 rooms →\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/HomeElements.java",
+          "line": 46,
+          "fact": "page HomePage link JOURNEY_LINK role link \"Show all 28 rooms →\"",
+          "why": "seen on /: \"Show all 28 rooms →\" (/journey.html); found by its role and name, exact: the crawl found exactly one on every page that must show it"
+        }
+      ]
+    },
+    "link:/->/journey.html": {
+      "kind": "link",
+      "why": "seen on /: \"Show all 28 rooms →\" (/journey.html)",
+      "facts": [
+        "page HomePage links-to JourneyPage clicking JOURNEY_LINK"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/home/actions/HomeClickActions.java",
+          "line": 24,
+          "fact": "page HomePage links-to JourneyPage clicking JOURNEY_LINK",
+          "why": "seen on /: \"Show all 28 rooms →\" (/journey.html)"
+        }
+      ]
+    },
+    "type:/journey.html": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /, shares 32% of its layout and 0% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page JourneyPage",
+        "page JourneyPage opens ()",
+        "page JourneyPage url-shapes /journey.html",
+        "page JourneyPage doors click, read, verify",
+        "page JourneyPage settles 100",
+        "page JourneyPage title is \"Journey — Harsh Rao\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 37,
+          "fact": "page JourneyPage",
+          "why": "no other page read is enough like it (the closest, /, shares 32% of its layout and 0% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 58,
+          "fact": "page JourneyPage opens ()",
+          "why": "no other page read is enough like it (the closest, /, shares 32% of its layout and 0% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 65,
+          "fact": "page JourneyPage url-shapes /journey.html",
+          "why": "no other page read is enough like it (the closest, /, shares 32% of its layout and 0% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 37,
+          "fact": "page JourneyPage doors click, read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 96,
+          "fact": "page JourneyPage settles 100",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 44,
+          "fact": "page JourneyPage title is \"Journey — Harsh Rao\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "structure:/journey.html:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page JourneyPage structure MAIN_HEADING xpath //h1",
+        "page JourneyPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyElements.java",
+          "line": 27,
+          "fact": "page JourneyPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 48,
+          "fact": "page JourneyPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "structure:/journey.html:main-region": {
+      "kind": "structure",
+      "why": "its page read shows a main region",
+      "facts": [
+        "page JourneyPage structure MAIN_REGION xpath //main | //*[@role='main']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyElements.java",
+          "line": 29,
+          "fact": "page JourneyPage structure MAIN_REGION xpath //main | //*[@role='main']",
+          "why": "its page read shows a main region"
+        }
+      ]
+    },
+    "check:/journey.html:Journey": {
+      "kind": "check",
+      "why": "every page of JourneyPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page JourneyPage loaded-when \"Journey\"",
+        "page JourneyPage check \"Journey\" spelled \"Journey\" by role heading \"Journey\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyPage.java",
+          "line": 48,
+          "fact": "page JourneyPage loaded-when \"Journey\"",
+          "why": "every page of JourneyPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyElements.java",
+          "line": 22,
+          "fact": "page JourneyPage check \"Journey\" spelled \"Journey\" by role heading \"Journey\"",
+          "why": "every page of JourneyPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "link:/journey.html:HOME_LINK": {
+      "kind": "link",
+      "why": "seen on /journey.html: \"About\" (/#about); found by its role and name, exact: the crawl found exactly one on every page that must show it",
+      "facts": [
+        "page JourneyPage link HOME_LINK role link \"About\""
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/JourneyElements.java",
+          "line": 33,
+          "fact": "page JourneyPage link HOME_LINK role link \"About\"",
+          "why": "seen on /journey.html: \"About\" (/#about); found by its role and name, exact: the crawl found exactly one on every page that must show it"
+        }
+      ]
+    },
+    "link:/journey.html->/": {
+      "kind": "link",
+      "why": "seen on /journey.html: \"About\" (/#about)",
+      "facts": [
+        "page JourneyPage links-to HomePage clicking HOME_LINK"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/pages/journey/actions/JourneyClickActions.java",
+          "line": 23,
+          "fact": "page JourneyPage links-to HomePage clicking HOME_LINK",
+          "why": "seen on /journey.html: \"About\" (/#about)"
+        }
+      ]
+    },
+    "run:timings": {
+      "kind": "run",
+      "why": "each page load timed: the same rows in every framework",
+      "facts": [
+        "run timings columns test,page,path,ready_ms,first_byte_ms,dom_loaded_ms,load_ms,after_load_ms,crawl_after_load_ms,slow"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/core/Timings.java",
+          "line": 38,
+          "fact": "run timings columns test,page,path,ready_ms,first_byte_ms,dom_loaded_ms,load_ms,after_load_ms,crawl_after_load_ms,slow",
+          "why": "each page load timed: the same rows in every framework"
+        }
+      ]
+    },
+    "run:api-timings": {
+      "kind": "run",
+      "why": "each API call timed: the same rows in every framework",
+      "facts": [
+        "run api timings columns test,call,status,ms,previous_ms,slow"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/core/Timings.java",
+          "line": 48,
+          "fact": "run api timings columns test,call,status,ms,previous_ms,slow",
+          "why": "each API call timed: the same rows in every framework"
+        }
+      ]
+    },
+    "test:smoke:/": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke HomePage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/GeneratedSmokeTest.java",
+          "line": 33,
+          "fact": "test smoke HomePage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/journey.html": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke JourneyPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/GeneratedSmokeTest.java",
+          "line": 39,
+          "fact": "test smoke JourneyPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:navigation:/#0": {
+      "kind": "test",
+      "why": "a link a visitor can click, seen on /: \"Show all 28 rooms →\"",
+      "facts": [
+        "test navigation HomePage() -> JourneyPage() then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/NavigationTest.java",
+          "line": 22,
+          "fact": "test navigation HomePage() -> JourneyPage() then loaded",
+          "why": "a link a visitor can click, seen on /: \"Show all 28 rooms →\""
+        }
+      ]
+    },
+    "test:navigation:/journey.html#0": {
+      "kind": "test",
+      "why": "a link a visitor can click, seen on /journey.html: \"About\"",
+      "facts": [
+        "test navigation JourneyPage() -> HomePage() then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/NavigationTest.java",
+          "line": 28,
+          "fact": "test navigation JourneyPage() -> HomePage() then loaded",
+          "why": "a link a visitor can click, seen on /journey.html: \"About\""
+        }
+      ]
+    },
+    "test:example:/": {
+      "kind": "test",
+      "why": "the worked example: it has the most controls of any page; a plain test written as a person would, nothing sent",
+      "facts": [
+        "test example HomePage() loads"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/HomeExampleTest.java",
+          "line": 26,
+          "fact": "test example HomePage() loads",
+          "why": "the worked example: it has the most controls of any page; a plain test written as a person would, nothing sent"
+        }
+      ]
+    },
+    "test:one-heading:/": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading HomePage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 29,
+          "fact": "test one-heading HomePage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/journey.html": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading JourneyPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/journey.html",
+          "snapshot": "crawl/pages/journey.html.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 37,
+          "fact": "test one-heading JourneyPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:anchor:/:#about": {
+      "kind": "test",
+      "why": "the \"About\" link, an in-page link a visitor sees; clicked, the address ends in #about and its part comes into view",
+      "facts": [
+        "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#about'] -> #about at (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1] heading (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='About']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 57,
+          "fact": "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#about'] -> #about at (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1] heading (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='About']",
+          "why": "the \"About\" link, an in-page link a visitor sees; clicked, the address ends in #about and its part comes into view"
+        }
+      ]
+    },
+    "test:anchor:/:#work": {
+      "kind": "test",
+      "why": "the \"Work\" link, an in-page link a visitor sees; clicked, the address ends in #work and its part comes into view",
+      "facts": [
+        "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#work'] -> #work at (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1] heading (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Work']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 72,
+          "fact": "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#work'] -> #work at (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1] heading (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Work']",
+          "why": "the \"Work\" link, an in-page link a visitor sees; clicked, the address ends in #work and its part comes into view"
+        }
+      ]
+    },
+    "test:anchor:/:#journey": {
+      "kind": "test",
+      "why": "the \"Journey\" link, an in-page link a visitor sees; clicked, the address ends in #journey and its part comes into view",
+      "facts": [
+        "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#journey'] -> #journey at (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1] heading (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Journey']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 87,
+          "fact": "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#journey'] -> #journey at (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1] heading (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Journey']",
+          "why": "the \"Journey\" link, an in-page link a visitor sees; clicked, the address ends in #journey and its part comes into view"
+        }
+      ]
+    },
+    "test:anchor:/:#contact": {
+      "kind": "test",
+      "why": "the \"Contact\" link, an in-page link a visitor sees; clicked, the address ends in #contact and its part comes into view",
+      "facts": [
+        "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#contact'] -> #contact at (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1] heading (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Contact']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 103,
+          "fact": "test anchor HomePage() clicks (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='#contact'] -> #contact at (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1] heading (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Contact']",
+          "why": "the \"Contact\" link, an in-page link a visitor sees; clicked, the address ends in #contact and its part comes into view"
+        }
+      ]
+    },
+    "test:parts:/": {
+      "kind": "test",
+      "why": "the crawl saw this page's in-page links lead to 4 parts of it; each is still there, its heading shown",
+      "facts": [
+        "test parts HomePage() has #about (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1] heading (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='About']; #work (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1] heading (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Work']; #journey (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1] heading (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Journey']; #contact (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1] heading (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Contact']"
+      ],
+      "evidence": [
+        {
+          "url": "https://harsh.civicease.systems/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 119,
+          "fact": "test parts HomePage() has #about (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1] heading (//*[@id='about'] | //a[@name='about'][not(//*[@id='about'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='About']; #work (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1] heading (//*[@id='work'] | //a[@name='work'][not(//*[@id='work'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Work']; #journey (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1] heading (//*[@id='journey'] | //a[@name='journey'][not(//*[@id='journey'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Journey']; #contact (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1] heading (//*[@id='contact'] | //a[@name='contact'][not(//*[@id='contact'])])[1]/descendant-or-self::*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or @role='heading'][normalize-space(translate(translate(.,'\f\u000b','  '),'                 　\ufeff','                   '))='Contact']",
+          "why": "the crawl saw this page's in-page links lead to 4 parts of it; each is still there, its heading shown"
+        }
+      ]
+    },
+    "test:titles-own": {
+      "kind": "test",
+      "why": "no two page types' pages shared a title in the crawl; an example of each still has its own",
+      "facts": [
+        "test titles-own HomePage(), JourneyPage()"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/SiteTest.java",
+          "line": 46,
+          "fact": "test titles-own HomePage(), JourneyPage()",
+          "why": "no two page types' pages shared a title in the crawl; an example of each still has its own"
+        }
+      ]
+    },
+    "test:not-found:/suite-builder-no-such-page-de834671": {
+      "kind": "test",
+      "why": "an address that cannot exist, which the crawl asked: answered 404, or a page (a soft 404, filed as a bug)",
+      "facts": [
+        "test not-found /suite-builder-no-such-page-de834671"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/GeneratedSmokeTest.java",
+          "line": 45,
+          "fact": "test not-found /suite-builder-no-such-page-de834671",
+          "why": "an address that cannot exist, which the crawl asked: answered 404, or a page (a soft 404, filed as a bug)"
+        }
+      ]
+    },
+    "run:requests": {
+      "kind": "run",
+      "why": "a suite of the team's own site: no pause, and a request answered 429 asked again after each wait; a 429 to the last fails that test",
+      "facts": [
+        "requests paced 0 ms; at 429 asked again after 3000, 9000, 27000 ms"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/core/Pace.java",
+          "line": 19,
+          "fact": "requests paced 0 ms; at 429 asked again after 3000, 9000, 27000 ms",
+          "why": "a suite of the team's own site: no pause, and a request answered 429 asked again after each wait; a 429 to the last fails that test"
+        }
+      ]
+    },
+    "ci:github:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci github quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/suite.yml",
+          "line": 39,
+          "fact": "ci github quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:github:full": {
+      "kind": "ci",
+      "why": "when started by hand: every test, in each browser (no nightly run)",
+      "facts": [
+        "ci github full chromium,firefox nightly never"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/suite.yml",
+          "line": 67,
+          "fact": "ci github full chromium,firefox nightly never",
+          "why": "when started by hand: every test, in each browser (no nightly run)"
+        }
+      ]
+    },
+    "ci:github:audit": {
+      "kind": "ci",
+      "why": "the audit's items asked again: a pipeline of its own, started by a person, in one browser, never on a push, a timer or the full run",
+      "facts": [
+        "ci github audit in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/audit.yml",
+          "line": 35,
+          "fact": "ci github audit in chromium",
+          "why": "the audit's items asked again: a pipeline of its own, started by a person, in one browser, never on a push, a timer or the full run"
+        }
+      ]
+    },
+    "ci:gitlab:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci gitlab quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 19,
+          "fact": "ci gitlab quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:gitlab:full": {
+      "kind": "ci",
+      "why": "when started by hand: every test, in each browser (no nightly run)",
+      "facts": [
+        "ci gitlab full chromium,firefox nightly never"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 44,
+          "fact": "ci gitlab full chromium,firefox nightly never",
+          "why": "when started by hand: every test, in each browser (no nightly run)"
+        }
+      ]
+    },
+    "ci:gitlab:audit": {
+      "kind": "ci",
+      "why": "the audit's items asked again: a pipeline of its own, started by a person, in one browser, never on a push, a timer or the full run",
+      "facts": [
+        "ci gitlab audit in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 122,
+          "fact": "ci gitlab audit in chromium",
+          "why": "the audit's items asked again: a pipeline of its own, started by a person, in one browser, never on a push, a timer or the full run"
+        }
+      ]
+    },
+    "ci:azure:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci azure quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-pipelines.yml",
+          "line": 37,
+          "fact": "ci azure quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:azure:full": {
+      "kind": "ci",
+      "why": "when started by hand: every test, in each browser (no nightly run)",
+      "facts": [
+        "ci azure full chromium,firefox nightly never"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-pipelines.yml",
+          "line": 71,
+          "fact": "ci azure full chromium,firefox nightly never",
+          "why": "when started by hand: every test, in each browser (no nightly run)"
+        }
+      ]
+    },
+    "ci:azure:audit": {
+      "kind": "ci",
+      "why": "the audit's items asked again: a pipeline of its own, started by a person, in one browser, never on a push, a timer or the full run",
+      "facts": [
+        "ci azure audit in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-audit.yml",
+          "line": 24,
+          "fact": "ci azure audit in chromium",
+          "why": "the audit's items asked again: a pipeline of its own, started by a person, in one browser, never on a push, a timer or the full run"
+        }
+      ]
+    },
+    "audit:SITE-24-2f369778": {
+      "kind": "audit",
+      "why": "the crawl found it (SITE-24); a test re-checks it firmly, and the ledger says what is expected",
+      "facts": [
+        "audit SITE-24-2f369778 \"x-content-type-options\" \"SITE-24 x-content-type-options no page sends it\": header / x-content-type-options absent"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/audit/Site24AuditTest.java",
+          "line": 25,
+          "fact": "audit SITE-24-2f369778 \"x-content-type-options\" \"SITE-24 x-content-type-options no page sends it\": header / x-content-type-options absent",
+          "why": "the crawl found it (SITE-24); a test re-checks it firmly, and the ledger says what is expected"
+        }
+      ]
+    },
+    "audit:SITE-24-7ea5b451": {
+      "kind": "audit",
+      "why": "the crawl found it (SITE-24); a test re-checks it firmly, and the ledger says what is expected",
+      "facts": [
+        "audit SITE-24-7ea5b451 \"x-frame-options\" \"SITE-24 x-frame-options no page sends it\": header / x-frame-options unframed"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/audit/Site24AuditTest.java",
+          "line": 32,
+          "fact": "audit SITE-24-7ea5b451 \"x-frame-options\" \"SITE-24 x-frame-options no page sends it\": header / x-frame-options unframed",
+          "why": "the crawl found it (SITE-24); a test re-checks it firmly, and the ledger says what is expected"
+        }
+      ]
+    },
+    "audit:SITE-24-cad315d8": {
+      "kind": "audit",
+      "why": "the crawl found it (SITE-24); a test re-checks it firmly, and the ledger says what is expected",
+      "facts": [
+        "audit SITE-24-cad315d8 \"content-security-policy\" \"SITE-24 content-security-policy no page sends it\": header / content-security-policy absent"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/audit/Site24AuditTest.java",
+          "line": 39,
+          "fact": "audit SITE-24-cad315d8 \"content-security-policy\" \"SITE-24 content-security-policy no page sends it\": header / content-security-policy absent",
+          "why": "the crawl found it (SITE-24); a test re-checks it firmly, and the ledger says what is expected"
+        }
+      ]
+    },
+    "audit:SITE-28-7eb6515f": {
+      "kind": "audit",
+      "why": "the crawl found it (SITE-28); a test re-checks it firmly, and the ledger says what is expected",
+      "facts": [
+        "audit SITE-28-7eb6515f \"missing\" \"SITE-28 missing the sitemap answers 404\": file /sitemap.xml no-sitemap"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/audit/Site28AuditTest.java",
+          "line": 25,
+          "fact": "audit SITE-28-7eb6515f \"missing\" \"SITE-28 missing the sitemap answers 404\": file /sitemap.xml no-sitemap",
+          "why": "the crawl found it (SITE-28); a test re-checks it firmly, and the ledger says what is expected"
+        }
+      ]
+    },
+    "audit:SITE-29-8802ab17": {
+      "kind": "audit",
+      "why": "the crawl found it (SITE-29); a test re-checks it firmly, and the ledger says what is expected",
+      "facts": [
+        "audit SITE-29-8802ab17 \"security.txt\" \"SITE-29 security.txt answers 404\": file /.well-known/security.txt no-contact"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/cases/audit/Site29AuditTest.java",
+          "line": 25,
+          "fact": "audit SITE-29-8802ab17 \"security.txt\" \"SITE-29 security.txt answers 404\": file /.well-known/security.txt no-contact",
+          "why": "the crawl found it (SITE-29); a test re-checks it firmly, and the ledger says what is expected"
+        }
+      ]
+    },
+    "audit:broken": {
+      "kind": "audit",
+      "why": "the statuses a broken link answers, rendered so no back end decides them",
+      "facts": [
+        "audit broken 402, 404, 406, 409-428, 430-450, 452-498, 500-599"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/Audit.java",
+          "line": 30,
+          "fact": "audit broken 402, 404, 406, 409-428, 430-450, 452-498, 500-599",
+          "why": "the statuses a broken link answers, rendered so no back end decides them"
+        }
+      ]
+    },
+    "audit:version": {
+      "kind": "audit",
+      "why": "what a header announcing a version is, rendered so no back end decides it",
+      "facts": [
+        "audit version (?:^|[\\s/(]|\\bv)\\d"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/systems/civicease/harsh/tests/core/Versions.java",
+          "line": 16,
+          "fact": "audit version (?:^|[\\s/(]|\\bv)\\d",
+          "why": "what a header announcing a version is, rendered so no back end decides it"
+        }
+      ]
+    },
+    "family:audit": {
+      "kind": "family",
+      "why": "a suite built with --audit: the audit tests run when asked for by name, never retried",
+      "facts": [
+        "family audit: on request; kind audit"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/systems/civicease/harsh/tests/Family.java",
+          "line": 63,
+          "fact": "family audit: on request; kind audit",
+          "why": "a suite built with --audit: the audit tests run when asked for by name, never retried"
+        }
+      ]
+    },
+    "test:link:/": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link / was 200 from /, /journey.html"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 3,
+          "fact": "test link / was 200 from /, /journey.html",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/journey.html": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /journey.html was 200 from /, /journey.html"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 4,
+          "fact": "test link /journey.html was 200 from /, /journey.html",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:external:https://civicease.systems/": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://civicease.systems/ was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 3,
+          "fact": "test external link https://civicease.systems/ was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://uwriter.io/": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://uwriter.io/ was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 4,
+          "fact": "test external link https://uwriter.io/ was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://formally.civicease.systems/": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://formally.civicease.systems/ was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 5,
+          "fact": "test external link https://formally.civicease.systems/ was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://clockspace.civicease.systems/": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://clockspace.civicease.systems/ was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 6,
+          "fact": "test external link https://clockspace.civicease.systems/ was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://github.com/HARSHRAO729/ClockSpace": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://github.com/HARSHRAO729/ClockSpace was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 7,
+          "fact": "test external link https://github.com/HARSHRAO729/ClockSpace was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://linkedin.com/in/harsh-rao-dev": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://linkedin.com/in/harsh-rao-dev was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 8,
+          "fact": "test external link https://linkedin.com/in/harsh-rao-dev was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://github.com/HARSHRAO729": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://github.com/HARSHRAO729 was 200 alive from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 9,
+          "fact": "test external link https://github.com/HARSHRAO729 was 200 alive from /",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    }
+  }
+}
